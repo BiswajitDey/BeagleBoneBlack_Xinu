@@ -1,0 +1,15 @@
+/* README - Lab3 - Original - Publisher Subscriber in Xinu */
+--------------------------------------------------------------------------------------------------------------------------
+Files modified :-
+-----------------
+1. include/pubsub.h       :  Header file for structure definitions for topic table and publish queue
+2. include/prototypes.h   :  Function declarations
+3. include/xinu.h         :  Include pubsub.h
+4. include/kernel.h       :  Declare topic16
+5. system/main.c          :  Processes to test the publisher subscriber model
+6. system/pubsub.c        :  Syscall definitions for publish, subscribe, unsubscribe, utility functions and broker process 
+7. system/kill.c          :  Unsubscribe process from topic table 
+8. system/initialize.c    :  Call pubsub_init() and start broker process
+
+
+---------------------------------------------------------------------------------------------------------------------------
