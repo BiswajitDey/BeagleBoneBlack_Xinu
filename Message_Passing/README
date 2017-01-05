@@ -1,0 +1,27 @@
+/* Message passing implementation */
+
+-------------------------------------------------------------------------------------------------------
+
+1. Files : main.c create.c process.h prototypes.h send.c receive.c
+2. Cases covered : -
+
+3 senders and 3 receivers have been used to cover the following cases :-
+
+/*------------------------------------------------------------------------------------
+ * sender - Sender process which send/s message/s to  receiver/s
+ * # Case 1: Sending a single message                : sender_id1 -> receiver_id1
+ * # Case 2: Sending n messages to a single process  : sender_id2 -> receiver_id2
+ * # Case 3: Send a single message to n processes    : sender_id3 -> receiver_id1 & receiver_id3
+ *------------------------------------------------------------------------------------
+ */
+      
+/*------------------------------------------------------------------------------------
+ * receiver - Receiver process which receive/s message/s from sender/s
+ * # Case 1: Receive a single message 	       		 : sender_id1 -> receiver_id1
+ * # Case 2: Receive multiple messages 			 : sender_id2 -> receiver_id2
+ * # Case 3: Receive single message sent to n receivers  : sender_id3 -> receiver_id1 & receiver_id3
+ *------------------------------------------------------------------------------------
+*/
+
+sleep() has been used for printing to be done properly.
+-----------------------------------------------------------------------------------------------------------
