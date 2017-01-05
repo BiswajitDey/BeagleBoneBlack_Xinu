@@ -1,0 +1,5 @@
+Implementation of publisher subscriber model using Xinu OS for BeabgleBone Black.
+
+This implementation consists of changed files in Xinu-BBB codebase for :-
+1. Integer data.             - SINGLE_DATA
+2. Stream of character data. - STREAM_DATA
