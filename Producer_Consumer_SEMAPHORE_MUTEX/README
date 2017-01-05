@@ -2,12 +2,8 @@
 
 /* The following files & folders are included in this tar */
 **************************************************************************************
-1. main_mu.c(same as MUTEX/main.c)           - Mutex Code
-2. main_csem.c(same as CSEM/main.c           - Counting semaphores code
-3. DOS - Lab Assignment 1 - Biswajit Dey.pdf - PDF Resport
-
-Separate folders have been also created with main.c file for MUTEX and CSEM respectively.
-
-Both the files outside and inside directories are same. Please use as needed.
+1. main_mu.c               - Mutex Code
+2. main_csem.c             - Counting semaphores code
+3. Producer Consumer       - Report
 
 ***************************************************************************************
